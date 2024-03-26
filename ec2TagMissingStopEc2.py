@@ -22,6 +22,11 @@ def lambda_handler(event, context):
     #print(response)         #lets print the response then we will see how to process the tags
     
     #alltags = response['Tags']
+
+#alltags = 
+#{'Tags': [{'Key': 'Environment', 'ResourceId': 'i-0ff4e896b30ca10e8', 'ResourceType': 'instance', 'Value': 'dev'}, 
+#{'Key': 'Name', 'ResourceId': 'i-0ff4e896b30ca10e8', 'ResourceType': 'instance', 'Value': 'jenkins-ec2'}, 
+#{'Key': 'Terraform', 'ResourceId': 'i-0ff4e896b30ca10e8', 'ResourceType': 'instance', 'Value': 'true'}], 
     
     flag='STOP'             #by default, you need to stop the instance, unless you find the tag called "Special"
     #print(alltags)
